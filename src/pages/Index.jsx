@@ -40,7 +40,7 @@ const Index = () => {
         <VStack spacing={4}>
           <Box bg="gray.800" p={4} borderRadius="md" w="full">
             <HStack spacing={4}>
-              <Image src="https://amzn.to/3wLRspS" alt="Book Cover 1" boxSize="100px" />
+              <Image src="YOUR_IMAGE_URL_HERE" alt="Book Cover 1" boxSize="100px" />
               <VStack align="start">
                 <Text fontSize="lg" fontWeight="bold">
                   Book Title 1
