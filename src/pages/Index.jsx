@@ -6,7 +6,7 @@ const Index = () => {
     <Container maxW="container.xl" p={4} bg="black" color="#FFCA0C">
       {/* Header */}
       <Box as="header" textAlign="center" py={8}>
-        <Image src="YOUR_IMAGE_URL_HERE" alt="Magic Print Production Logo" mx="auto" />
+        <Image src="https://images.unsplash.com/photo-1510759591315-6425cba413fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxNYWdpYyUyMFByaW50JTIwUHJvZHVjdGlvbiUyMGxvZ298ZW58MHx8fHwxNzE2NDI1Njc3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Magic Print Production Logo" mx="auto" />
         <Text fontSize="4xl" fontWeight="bold" mt={4}>
           Magic Print Production
         </Text>
@@ -22,9 +22,9 @@ const Index = () => {
         </Text>
         <Text mb={4}>We specialize in book creation, printing services, and book design. Explore our gallery of books created and uploaded to Amazon KDP.</Text>
         <HStack spacing={4} wrap="wrap" justify="center">
-          <Image src="YOUR_IMAGE_URL_HERE" alt="Book Cover 1" boxSize="150px" />
-          <Image src="YOUR_IMAGE_URL_HERE" alt="Book Cover 2" boxSize="150px" />
-          <Image src="YOUR_IMAGE_URL_HERE" alt="Book Cover 3" boxSize="150px" />
+          <Image src="https://images.unsplash.com/photo-1536237880829-dd441c249e0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxib29rJTIwY292ZXIlMjAxfGVufDB8fHx8MTcxNjQyMTkwMXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Book Cover 1" boxSize="150px" />
+          <Image src="https://images.unsplash.com/photo-1466695108335-44674aa2058b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxib29rJTIwY292ZXIlMjAyfGVufDB8fHx8MTcxNjQyMTkwMXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Book Cover 2" boxSize="150px" />
+          <Image src="https://images.unsplash.com/photo-1466695108335-44674aa2058b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxib29rJTIwY292ZXIlMjAzfGVufDB8fHx8MTcxNjQyNTY3N3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Book Cover 3" boxSize="150px" />
         </HStack>
         <Button mt={4} colorScheme="yellow" variant="solid">
           Order Custom Books & Bulk Orders
@@ -40,7 +40,7 @@ const Index = () => {
         <VStack spacing={4}>
           <Box bg="gray.800" p={4} borderRadius="md" w="full">
             <HStack spacing={4}>
-              <Image src="YOUR_IMAGE_URL_HERE" alt="Book Cover 1" boxSize="100px" />
+              <Image src="https://images.unsplash.com/photo-1522010343142-5b7cc854c0d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwyfHxib29rJTIwY292ZXIlMjAxfGVufDB8fHx8MTcxNjQyMTkwMXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Book Cover 1" boxSize="100px" />
               <VStack align="start">
                 <Text fontSize="lg" fontWeight="bold">
                   Book Title 1
