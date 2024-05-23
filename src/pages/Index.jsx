@@ -1,5 +1,5 @@
 import { Container, Box, Text, VStack, HStack, Button, Image, Input, FormControl, FormLabel, Textarea, IconButton, Link } from "@chakra-ui/react";
-import { FaAmazon, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaAmazon, FaFacebook, FaTwitter, FaInstagram, FaCcMastercard } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -52,7 +52,9 @@ const Index = () => {
                       Buy on Amazon
                     </Button>
                   </Link>
-                  <Button colorScheme="yellow">Buy with Payoneer</Button>
+                  <Button leftIcon={<FaCcMastercard />} colorScheme="yellow">
+                    Buy with Payoneer
+                  </Button>
                 </HStack>
               </VStack>
             </HStack>
